@@ -1,6 +1,5 @@
 {
-  "name": "more-component",
-  "repo": "component/more",
+  "name": "component-more",
   "description": "Expand and collapse lists",
   "version": "0.0.1",
   "keywords": [
@@ -11,19 +10,11 @@
     "more",
     "less"
   ],
+  "styles": [
+    "more.css"
+  ],
   "dependencies": {
-    "classes-component": "*"
+    "component-classes": "git://github.com/npmcomponent/component-classes.git"
   },
-  "component": {
-    "scripts": {
-      "more/index.js": "index.js"
-    },
-    "styles": [
-      "more.css"
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/more.git"
-  }
+  "license": "MIT"
 }
